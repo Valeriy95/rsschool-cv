@@ -1,3 +1,1 @@
-text
-text2
-text3
+https://GITHUB-Valeriy95.github.io.rsschool-cv/cv

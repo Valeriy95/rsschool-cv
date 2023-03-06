@@ -42,9 +42,9 @@ function highAndLow(numbers) {
 
 ****
 ## Projects
-[CV](https://valeriy95.github.io/rsschool-cv/)
-[Plants](https://valeriy95.github.io/Plants/)
-[Momentum](https://valeriy95.github.io/Momentum/)
+* [CV](https://valeriy95.github.io/rsschool-cv/)
+* [Plants](https://valeriy95.github.io/Plants/)
+* [Momentum](https://valeriy95.github.io/Momentum/)
 
 ****
 ## Education

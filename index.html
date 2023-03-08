@@ -11,6 +11,99 @@
    <title>CV</title>
 </head>
 <body>
-   
+   <header class="header-item">
+      <nav>
+         <ul class="nav-list">
+            <li><a href="#contacts" class="nav-link">Contacts</a></li>
+            <li><a href="#summary" class="nav-link">Summary</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#code" class="nav-link">Code</a></li>
+            <li><a href="#courses" class="nav-link">Courses</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#languages" class="nav-link">Languages</a></li>
+         </ul>
+      </nav> 
+   </header>
+   <main class="wrapper">
+      <div class="container-black">
+         <div class="image">
+            <img src="assets/img/avatar.png" alt="avatar" width="200" height="200">
+         </div>
+         <section class="contacts" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="contact-list">
+               <li class="section-item contact-item">Belgorod, Russia</li>
+               <li class="section-item contact-item">Phone:<a href="tel:+79507161602"> +7 950 716 16 02</a></li>
+               <li class="section-item contact-item">Email:<a href="mailto:vmariukhnyk@gmail.com"> vmariukhnyk@gmail.com</a></li>
+               <li class="section-item contact-item">Telegram:<a href="https://telegram.me/valeryevich_m"> valeryevich_m</a></li>
+               <li class="section-item contact-item">GitHub:<a href="https://github.com/Valeriy95"> Valeriy95</a></li>
+            </ul>
+         </section>
+         <section class="skills" id="skills">
+            <h2 class="section-title">Skills</h2>
+         <ul class="skills-list">
+            <li class="section-item skills-item">HTML</li>
+            <li class="section-item skills-item">CSS</li>
+            <li class="section-item skills-item">JavaScript</li>
+            <li class="section-item skills-item">Git, GitHub</li>
+            <li class="section-item skills-item">Figma</li>
+         </ul>
+         </section>
+         <section class="courses" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="courses-list">
+               <li class="section-item courses-item">Udemy: <span>HTML, CSS, JavaScript;</span></li>
+               <li class="section-item courses-item">JavaScript <span>- https://learn.javascript.ru;</span></li>
+               <li class="section-item courses-item">RS Schools <span>- Course «JavaScript/Front-end. Stage 0»;</span></li>
+               <li class="section-item courses-item">RS Schools <span>- Course «JavaScript/Front-end. Stage 1» (in progress).</span></li>
+            </ul>
+         </section>
+         <section class="education" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>V. N. Karazin Kharkiv National University</p>
+         </section>
+      </div>
+      <div class="container-white">
+         <section class="name">
+            <h1 class="main-title">Valeriy&nbsp;Maryukhnyk</h1>
+            <p class="text-profile">Future Front-end developer</p>
+         </section>
+         <section class="summary" id="summary">
+            <h2 class="section-title summary-title">Summary</h2>
+            <p class="text-black">I recently started learning programming. I have little experience in this area, but I have a greater desire to learn JavaScript. I have a main job, but I want to change it to programming. My goal is to become a Junior Front-end developer.</p>
+         </section>
+         <section class="code" id="code">
+            <h2 class="section-title code-title">Code</h2>
+            <p class="text-black"><code>function highAndLow(numbers) {
+            <br>&nbsp;&nbsp;const array = numbers.split(' ');
+            <br>&nbsp;&nbsp;const max = Math.max.apply(null, array);
+            <br>&nbsp;&nbsp;const min = Math.min.apply(null, array);
+            <br>&nbsp;&nbsp;return `${max} ${min}`;
+            <br>}
+            </code></p>
+         </section>
+         <section class="projects" id="projects">
+            <h2 class="section-title projects-title">Projects</h2>
+            <ul class="courses-list">
+               <li class="projects-item"><a href="https://valeriy95.github.io/rsschool-cv/"> CV RS School</a></li>
+               <li class="projects-item"><a href="https://valeriy95.github.io/Plants/"> Plants</a></li>
+               <li class="projects-item"><a href="https://valeriy95.github.io/Momentum/"> Momentum</a></li>
+            </ul>
+         </section>
+         <section class="languages" id="languages">
+            <h2 class="section-title languages-title">Languages</h2>
+            <p class="text-black">Russian - native</p>
+            <p class="text-black">English level <span>- A2</span></p>
+         </section>
+      </div>
+   </main>
+   <footer class="footer">
+      <div class="footer-container">
+         <p> &COPY; 2023</p>
+         <a href="https://github.com/Valeriy95"><img class="img-github" src="assets/icon/icons8-github-60.png" alt="github-icon" width="60" height="60"></a>
+      </div>
+      <a href="https://rs.school/js/"><img class="img-rss" src="assets/icon/rs_school_js.svg" alt="icon-rss" width="130" height="60"></a>
+   </footer>
 </body>
 </html>

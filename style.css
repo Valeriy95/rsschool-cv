@@ -1,0 +1,350 @@
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   color: #ffffff;
+}
+
+
+.nav-list {
+   display: flex;
+   margin: 0px;
+   padding: 0 30px;
+   justify-content: flex-end;
+   align-items: center;
+   list-style: none;
+}
+
+.nav-link {
+   padding: 0 9px;
+   line-height: 50px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 300;
+   letter-spacing: 0.1px;
+   word-spacing: 0.1px;
+   color: #ffffff;
+}
+
+.header-item {
+   margin: auto;
+   max-width: 1440px;
+   position: sticky;
+   top: 0px;
+   line-height: 80px;
+   background-color: #3e423e;
+   border-bottom: 4px solid #ffffff;
+   z-index: 2;
+}
+
+.header-item a {
+   text-decoration:none;
+   display: inline-block; 
+   color:#ffffff;
+}
+
+.header-item a:after {
+   display: block; 
+   content: ""; 
+   height: 3px; 
+   width: 0%; 
+   background-color: #ffffff;
+   transition: width 0.5s;
+}
+
+.header-item a:hover:after,
+.header-item a:focus:after {
+   width: 100%;
+}
+
+.header-item a:hover{
+   font-weight: 700;
+   opacity: 0.3;
+} 
+
+.wrapper {
+   margin: auto;
+   max-width: 1440px;
+   display: flex;
+   flex-direction: row;
+}
+
+.container-black {
+   background-color: #3e423e;
+   width: 35%;
+}
+
+.container-white {
+   width: 65%;
+   display: block;
+}
+
+.image {
+   width: 100%;
+   height: 270px;
+}
+
+.image img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 45px;
+   border-radius: 100px;
+   box-shadow: 0 0 0 3px;
+}
+
+.section-title {
+   font-size: 20px;
+   text-align: center;
+   text-transform: uppercase;
+   font-weight: 700;
+   letter-spacing: 8px;
+   color: #ffffff;
+}
+
+.section-title::after {
+   display: block;
+   content: "";
+   height: 3px;
+   width: 90%;
+   border-bottom: 4px solid #ffffff;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: 50px;
+}
+
+.contact-list {
+   list-style: none;
+   margin-left: 45px;
+}
+
+.section-item {
+   position: relative;
+   margin: 0;
+   margin-bottom: 10px;
+   padding: 0;
+   padding-right: 10px;
+   color: #ffffff;
+}
+
+.contact-item a {
+   text-decoration: none;
+   color: #ffffff;
+   transition: 0.5s;
+}
+
+.contact-item:first-child::before {
+   position: absolute;
+   content: "";
+   left: -40px;
+   width: 25px;
+   height: 25px;
+   background-image: url(./assets/icon/icons8-google-карты-50.png);
+   background-size: contain;
+}
+
+.contact-item:nth-child(2)::before {
+   position: absolute;
+   content: "";
+   left: -40px;
+   width: 25px;
+   height: 25px;
+   background-image: url(./assets/icon/icons8-звонящий-телефон-50.png);
+   background-size: contain;
+}
+
+.contact-item:nth-child(3)::before {
+   position: absolute;
+   content: "";
+   left: -40px;
+   width: 23px;
+   height: 23px;
+   background-image: url(./assets/icon/icons8-сообщение-50.png);
+   background-size: contain;
+}
+
+.contact-item:nth-child(4)::before {
+   position: absolute;
+   content: "";
+   left: -40px;
+   width: 25px;
+   height: 25px;
+   background-image: url(./assets/icon/icons8-телеграмма-app-50.png);
+   background-size: contain;
+}
+
+.contact-item:last-child::before {
+   position: absolute;
+   content: "";
+   left: -40px;
+   width: 25px;
+   height: 25px;
+   background-image: url(./assets/icon/icons8-github-30.png);
+   background-size: contain;
+}
+
+.contact-item a:hover,
+.projects-item a:hover {
+   opacity: 0.3;
+   cursor: pointer;
+   font-weight: 700;
+   transition: 0.5s;
+}
+
+.courses-list, .skills-list {
+   margin-left: 25px;
+}
+
+#education p {
+   margin-left: 45px;
+}
+
+.main-title {
+   position: relative;
+   margin-top: 110px;
+   margin-bottom: 0px;
+   margin-left: 125px;
+   padding: 0;
+   text-transform: uppercase;
+   font-size: 40px;
+   font-weight: 300;
+   letter-spacing: 3px;
+   line-height: 50px;
+   word-spacing: 2px;
+   color: #3e423e;
+}
+
+.text-profile {
+      color: #3e423e;
+      font-size: 28px;
+      font-weight: 300;
+      margin: 0;
+      margin-left: 125px;
+      margin-bottom: 95px;
+}
+
+.summary-title, 
+.code-title,
+.projects-title,
+.languages-title {
+   margin-left: 150px;
+   text-align: start;
+   color: #3e423e;
+}
+
+.summary-title::after,
+.code-title::after,
+.projects-title::after,
+.languages-title::after {
+   display: block;
+   content: "";
+   height: 3px;
+   width: 90%;
+   border-bottom: 4px solid #3e423e;
+   margin-top: 25px;
+   margin-bottom: 25px;
+   margin-left: -30px;
+}
+
+.summary-title::before  {
+   content: "";
+   position: absolute;
+   margin-left: -40px; 
+   width: 25px;
+   height: 25px;
+   background-size: contain;
+   background-image: url(./assets/icon/icons8-пользователь-мужчина-в-кружке-50.png);
+}
+
+.text-black {
+   color: #3e423e;
+   font-size: 20px;
+   padding-left: 120px;
+   padding-right: 110px;
+}
+
+.code-title::before {
+   content: "";
+   position: absolute;
+   margin-left: -40px; 
+   width: 25px;
+   height: 25px;
+   background-size: contain;
+   background-image: url(./assets/icon/icons8-ноутбук-50.png);
+}
+
+.projects-title::before {
+   content: "";
+   position: absolute;
+   margin-left: -40px; 
+   width: 24px;
+   height: 24px;
+   background-size: contain;
+   background-image: url(./assets/icon/icons8-бизнес-50.png);
+}
+
+.projects-item {
+   position: relative;
+   margin-left: 70px;
+   margin-bottom: 10px;
+   padding: 0;
+   padding-right: 10px;
+   color: #3e423e;
+}
+
+.projects-item a {
+   text-decoration: none;
+   color: #3e423e;
+   transition: 0.5s;
+}
+
+.languages-title::before {
+   content: "";
+   position: absolute;
+   margin-left: -40px; 
+   width: 26px;
+   height: 26px;
+   background-size: contain;
+   background-image: url(./assets/icon/icons8-география-50.png);
+}
+
+.footer {
+   display: flex;
+   flex-direction: row;
+   max-width: 1440px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 0px;
+   background-color: #3e423e;
+   border-top: 4px solid #ffffff;
+}
+
+.footer-rss {
+   width: 30px;
+   height: 30px;
+   margin-top: 13px;
+   background-size: contain;
+   background-image: url(./assets/icon/rs_school_js.svg);
+}
+
+.footer-container {
+   display: flex;
+   flex-direction: row;
+   width: 200px;
+   justify-content: space-around;
+   margin-right: 75%;
+}
+
+.img-github,
+.img-rss {
+   transition: 0.5s;
+}  
+
+.img-github:hover,
+.img-rss:hover {
+   opacity: 0.5;
+   transition: 0.5s;
+}
